@@ -1,0 +1,192 @@
+/* General body and page styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Soft light background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user-dashboard {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 30px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Preference Form Styling */
+  .preference-form-container {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preference-form h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .preference-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .preference-form label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .preference-form input,
+  .preference-form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .preference-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #ff6f00; /* Swiggy-like orange */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .preference-form button:hover {
+    background-color: #ff5722; /* Slightly darker shade */
+  }
+  
+  /* Recommendations Styling */
+  .recommendations-container {
+    margin-top: 40px;
+  }
+  
+  .preferences-summary {
+    background-color: #fff7e6;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .preferences-summary h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .preferences-summary p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .preferences-summary button {
+    background-color: #ff6f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .preferences-summary button:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Loading State */
+  .loading {
+    font-size: 1.4rem;
+    color: #ff5722;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Meal Cards Styling */
+  .recommendation-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .meal-card {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px); /* Card lift effect on hover */
+  }
+  
+  .meal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .meal-card h4 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .meal-details {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #ff6f00;
+  }
+  
+  .category {
+    font-style: italic;
+    color: #8a8a8a;
+  }
+  
+  .calories {
+    color: #e67e22;
+  }
+  
+  .order-btn {
+    background-color: #ff6f00;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .order-btn:hover {
+    background-color: #ff5722;
+  }
+  

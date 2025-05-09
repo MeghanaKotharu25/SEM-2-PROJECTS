@@ -1,0 +1,88 @@
+/* General Page Styling */
+.menu-list-container {
+  background-color: #f7f1e1; /* Light cream background */
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header {
+  padding: 12px;
+  background-color: #f2d8a6; /* Light yellow/cream color */
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid #ddd;
+}
+
+.table-row {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+  background-color: #f5f5f5;
+}
+
+.table-cell {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #4b9e6f;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #3c7f56;
+}
+
+.delete-btn {
+  background-color: #e54b4b;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c04a4a;
+}
+
+/* Spacing Between Table and Content */
+.menu-list-container .table-container {
+  margin-top: 30px;
+}
+
+/* Add some shadow and rounded corners to make the table look sleek */
+.menu-table {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

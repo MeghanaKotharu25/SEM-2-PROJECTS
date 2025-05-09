@@ -1,0 +1,21 @@
+.app-container {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .app-content {
+    margin-top: 20px;
+  }
+  
+  .app-footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
